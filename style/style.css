@@ -1,0 +1,330 @@
+/*////////////////General Styles//////////////*/
+body{
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+
+.container{
+    width:60%;
+    margin:auto;
+}
+div img{
+    width:100%;
+}
+
+.py-section{
+    padding-block: 50px;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+/*////////////////Hero Section//////////////*/
+
+.hero-section{
+     display: inline-block;
+}
+.hero-content{
+    width:50%;
+    float: left;
+}
+.hero-content h1{
+    font-size: 50px;
+    margin:0 0 0px 0;
+}
+.hero-content p{
+    text-align: left;
+}
+.hero-img{
+    width:30%;
+    float:right;
+}
+.hero-img img{
+    border-radius: 5%;
+    margin-top: 5%;
+}
+.clear{
+    clear:both;
+}
+
+.button-section button{
+    background-color: white;
+    width:fit-content;
+    padding:2% 2%;
+    margin-top: 10px;
+    margin-right: 2%;
+    display:inline-block;
+    border-radius: 5px;
+}
+
+.button-section button:hover{
+    color:white;
+    background-color: black;
+}
+
+/*////////////////End of Hero Section//////////////*/
+
+
+/*////////////////Why choose us Section//////////////*/
+
+.why-choose-us{
+    text-align: center;
+}
+.why-choose-content{
+    width:50%;
+    margin:auto;
+    padding-bottom: 3%;
+}
+
+.all-cards{
+    padding-bottom: 5%;
+}
+.card-one{
+    width:30%;
+    padding-bottom:1.5%;
+    padding-top:2%;
+    background-color: #DBEAFE;
+    border-radius: 5%;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+
+.card-two{
+    width:30%;
+    padding-bottom:2%;
+    padding-top:2%;
+    background-color: #DBEAFE;
+    border-radius: 5%;
+    margin-right: 2%;
+}
+
+.card-three{
+    width:30%;
+    padding-bottom:2%;
+    padding-top:2%;
+    background-color: #DBEAFE;
+    border-radius: 5%;
+    margin-right: 2%;
+}
+.card-img{
+    width:20%;
+    margin:auto;
+}
+
+.more-than-img{
+    width:40%;
+    margin-top: 2%;
+}
+
+.more-than-img img{
+    border-radius: 3%;
+}
+
+.more-than-content{
+    text-align: left;
+    padding-left:5% ;
+}
+.more-than-content div h3{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.more-than-sec{
+    border-width: 5px;
+    border-left: solid;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.more-than-sec h4{
+    margin:0;
+}
+.more-than-sec p{
+    color: grey;
+     margin: 0;
+     text-align: left;
+}
+
+/*////////////////End of Why choose us Section//////////////*/
+
+.members-header{
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+.all-members-cards{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.member-card{
+    width: 24%;
+    background-color: rgb(246, 243, 238);
+    border-radius: 5%;
+    border:1px solid rgb(225, 224, 224);
+    padding:3%;
+    margin-right: 3%;
+    font-size: 90%;
+}
+
+.member-card-header{
+    width:100%;
+    margin:0;
+}
+.member-details h4,p{
+    margin:0;
+}
+.member-details{
+    padding-top: 7%;
+}
+.member-img{
+    width:30%;
+}
+.member-img img{
+    border-radius:50%;
+}
+.member-feedback p{
+    padding-top:5%;
+    text-align: left;
+}
+
+.member-statistics{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 95%;
+    margin:auto;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+.statistics-element{
+    width:25%;
+}
+.statistics-element p{
+    text-align: center;
+}
+
+
+/*////////////Ready To Start Section////////////////*/
+
+.ready-header{
+    width:65%;
+    margin:auto;
+    padding-bottom: 5%;
+}
+.ready-header h2,p{
+    text-align: center;
+}
+.user-info{
+    width:80%;
+    margin:auto;
+    font-weight: 700;
+    background-color: rgb(234, 249, 249);
+    padding:5%;
+    border-radius: 10px;;
+}
+
+.user-name{
+    margin-bottom: 5%;
+}
+.fist-name{
+    width: 25%;
+}
+.last-name{
+    margin-left:30%;
+    width: 25%;
+}
+.user-name input{
+    width:180%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.user-info input[type=email] ,input[type=tel], select, textarea{
+    width:100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 5%;
+}
+
+.user-info button{
+    width:100%;
+    padding: 12px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+.user-info p{
+    font-size: 70%;
+    font-weight: 300;
+    color:grey;
+    padding-top:3%;
+}
+
+
+/*======================Footer Section=========================*/
+
+.footer{
+    width:100%;
+    background-color: rgb(13, 30, 44);
+    color:white;
+}
+.footer p{
+    text-align: left;
+    color:grey;
+    margin:0;
+    
+}
+.fitcore{
+    width:40%;
+    margin-right: 10%;
+}
+.fitcore p{
+    margin-left:0;
+}
+.quick-links{
+    width:30%;
+}
+.quick-links ul,a{
+    list-style-type: none;
+    text-decoration: none;
+    color:grey;
+    padding:0;
+}
+
+.quick-links li{
+    margin-bottom: 10px;
+}
+
+.contact-info{
+    width:20%;
+}
+.contact-info h4{
+    color:white;
+    margin-bottom:0;
+}
+hr{
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-color: rgb(113, 112, 129);   
+}
+.copyrights{
+    font-size: 70%;
+    margin:0;
+    padding:0;
+}
+.rights p{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.policy p{
+    margin:0 0 30px 0;
+    padding:0 20px 0 0;
+    
+}
